@@ -1,0 +1,28 @@
+body {
+    background-color: gray;
+}
+
+.wrapper {
+    align-items: center;
+}
+
+.calculator {
+    display: flex;
+    max-width: 150px;
+    flex-wrap: wrap;
+    border: solid 2px black;
+    background-color: white;
+}
+
+input {
+    flex: 0 1 auto;
+    width: 50px;
+    height: 50px;
+}
+
+.display {
+    min-width: 140px;
+    background-color: white;
+    height: 20px;
+    text-align: right;
+}
